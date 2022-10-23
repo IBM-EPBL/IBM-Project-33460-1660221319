@@ -1,0 +1,22 @@
+PROJECT PLANNING PHASE :
+	knowledge gained about different project planning methedologies and different framework and go through the different template
+
+THINGS LEARNED :
+
+AGILE PLANNING:
+	Project management style using agile technologies is used by 71% of organizations and many of the companies adoped it.
+	
+	TYPES OF AGILE METHEDOLOGIES :
+		
+		-->> Kanban
+		-->> Scrum ( Framework )
+
+		Learned the major differnce between the both. and usage of both framework,
+		and also learned all the four basic characteristics of the frame work
+
+LEARNING JIRA Software :
+
+	Started learning JIRA Software.
+
+OTHER LEARNING PROCESS :
+ 	Visited, the plan and how to working with the Agile planning. and how to use the JIRA planning with the Project.

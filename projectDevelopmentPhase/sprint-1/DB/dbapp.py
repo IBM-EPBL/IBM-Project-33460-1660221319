@@ -8,7 +8,7 @@ driver="{IBM DB2 ODBC DRIVER}"
 db="bludb"
 port="30426"
 protocol="TCPIP"
-cert="Certificate.crt"
+cert="Cert.crt"
 
 dsn=(
     "DATABASE={0};"

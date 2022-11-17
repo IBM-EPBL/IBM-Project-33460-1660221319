@@ -32,6 +32,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 100;
 }
 
 .navbar .primary-navigation {
@@ -74,6 +75,7 @@
     overflow-x: scroll;
     scroll-snap-type: x;
     width: 100%;
+    margin: 0%;
 
 }
 
@@ -133,6 +135,7 @@
     color: white;
     font-weight: 500;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .btn-without-styles {
@@ -142,3 +145,4 @@
     font-weight: 500;
     color: #044b97;
 }
+

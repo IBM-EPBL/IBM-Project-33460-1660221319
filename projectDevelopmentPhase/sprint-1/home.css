@@ -7,11 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
-p{
+p {
     font-size: 28px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    marker-start: 14px;
 }
 
 .primary-header {
@@ -60,7 +59,7 @@ p{
     color: white;
 }
 
-.carousel_slide{
+.carousel_slide {
     margin-right: 14px;
     margin-left: 14px;
 }
@@ -73,20 +72,22 @@ p{
 .horizontal__container {
     display: flex;
     flex-direction: row;
-    
+
 
 }
 
 .cards {
     display: flex;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     scroll-snap-type: x;
     width: 100%;
-    margin: 0%;
+    padding: 0;
+    margin-left: 14px;
+    flex-direction: row;
 
 }
 
-.corousel-image{
+.corousel-image {
     /* object-fit: scale-down; */
     height: 100%;
     width: 100%;
@@ -94,7 +95,7 @@ p{
     -o-object-fit: cover;
 }
 
-.title-text{
+.title-text {
 
     margin-left: 14px;
     font-size: 28px;
@@ -110,7 +111,7 @@ p{
     padding: 8px;
     margin-right: 14px;
     width: 200vw;
-    
+
 }
 
 .card .card-image {
@@ -123,6 +124,11 @@ p{
     font-size: 16px;
     margin-top: 10px;
     font-weight: 500;
+}
+
+.our_works_class{
+    margin-left: 14px;
+    font-weight: 400;
 }
 
 .btn__container {
@@ -153,28 +159,49 @@ p{
     color: #044b97;
 }
 
-.ourWorks__container{
+.ourWorks__container {
     display: flex;
     align-items: center;
     justify-items: center;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+
 }
-.our_works_innerContainer{
+
+.our_works_innerContainer {
 
     width: 800px;
-    height: 500px;
+    height: 322px;
     overflow: hidden;
-    marker-end: 14px;
+    margin-right: 12px;
     padding: 10px;
+    border: #bdbdbd 1px solid;
+    border-radius: 2px;
+
 }
 
-.our_works_container_img{
+.ourWorks__container :hover{
+
+    border-radius: 4px;
+    border: #0064ce solid 2px;
+}
+.our_works_innerContainer :hover{
+
+    border: none;
+}
+
+
+
+.our_works_container_img {
 
     object-fit: cover;
     width: 100%;
     height: 80%;
 }
-.ourworks_info{
-    font-size: 18px;
+
+.our_works_innerContainer .ourworks_info {
+    font-size: 16px;
     font-weight: 300;
     margin-top: 16px;
 }

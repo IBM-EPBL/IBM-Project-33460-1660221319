@@ -12,7 +12,7 @@ conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=125f9f61-9715-46f9-9399-c8177b218
 @app.route('/')
 
 def home():
-    return render_template('home-page.html')
+    return render_template('index.html')
 
 
 @app.route('/login',methods =['GET', 'POST'])
@@ -76,9 +76,7 @@ def register():
         msg = 'Please fill out the form !'
     return render_template('registration.html', msg = msg)
 
-@app.route('/dashboard')
-def dash():
-    return render_template('home-page.html')
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
